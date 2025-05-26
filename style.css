@@ -14,7 +14,7 @@ html {
 h1 {
     text-shadow: 0.1em 0.1em 0.2em black;
     font-size: 25px;
-    color: yellow;
+    color: white;
     font-family: Arial, sans-serif; /* تحسين الخط */
 }
 
@@ -36,12 +36,12 @@ a {
 
 .btn {
     background-color: #008000;
-    color: yellow;
+    color: white;
     width: 227px;
     height: 46px;
     padding-bottom: 5px;
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 5px;
@@ -66,11 +66,11 @@ a {
 }
 
 .btn-toolbox {
-    background-color: #ffffff;
+    background-color: #ae2301;
 }
 
 .btn-toolbox:hover {
-    background-color: #ffffff;
+    background-color: #d42a01;
 }
 
 #console {
