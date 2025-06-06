@@ -26,18 +26,7 @@ function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));setTimeout
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="تم تثبيت التخزين المؤقت بنجاح ✔";},1500);setTimeout(function(){window.msgs.innerHTML="الآن أغلق المتصفح وافتحه مرة أخرى للاستخدام بدون إنترنت";},3500);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 <h1>Big Megoo - Gamer Zone  تعديل سوفت 9 بدون الفلاشة</h1>
-<hr>
-<br>
-<div class="warning" style=" text-align: right; color: yellow; max-width: 80%;">
-    <strong>تنبيه هام:</strong> 
-    <ul style="text-align: right; list-style-position: inside;">
-       <li>الثغرة الجديدة لا تحتاج إلى فلاش USB</li>
-                <li>في حال ظهور أي واجهة تحتوي على زر "موافق" أو "إغلاق الصفحة"، قم بالضغط على "موافق" بدون تردد</li>
-                <li>انتظر حتى اكتمال تثبيت التخزين المؤقت بنسبة 100%</li>
-                <li>تم تحسين آلية التخزين المؤقت للصفحة لضمان عملها بشكل أفضل</li>
-                <li>بعد اكتمال التثبيت، أغلق المتصفح وافتحه مرة أخرى للاستخدام بدون إنترنت</li>
-        <li>قد تواجه مشكلة استقرار في أول مرة تفتح فيها الصفحة، يرجى إعادة تشغيل الجهاز والمحاولة مرة أخرى</li>
-</div>
+
 <h1 id="msgs">جاري بدء التخزين المؤقت...</h1>
 </body>
 </html>
